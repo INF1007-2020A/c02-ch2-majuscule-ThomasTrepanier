@@ -2,14 +2,15 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
+    increment = 32
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
 
         if letterCode > 90:
-            letterCode -= 32
+            letterCode -= increment
         else:
-            letterCode += 32
+            letterCode += increment
 
         lettre = chr(letterCode)
         resultat += lettre
