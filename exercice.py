@@ -2,17 +2,21 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
+    dist_entre_min_et_maj = ord('a') - ord('A')
+    code_min_des_maj = ord('A')
+    code_max_des_maj = ord('Z')
+    code_min_des_min = ord('a')
+    code_max_des_min = ord('z')
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
 
-        if letterCode > 90:
-            letterCode -= 32
-        else:
-            letterCode += 32
+        if letterCode <= code_max_des_maj and letterCode >= code_min_des_maj:
+            letterCode += dist_entre_min_et_maj
+        elif letterCode <= code_max_des_min and letterCode >= code_min_des_min:
+            letterCode -= dist_entre_min_et_maj
 
         lettre = chr(letterCode)
-
         resultat += lettre
     return resultat
 
