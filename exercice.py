@@ -3,7 +3,7 @@
 def majuscule(mot):
     resultat = ''
     dist_entre_min_et_maj = ord('a') - ord('A')
-    LIMIT_MAJ = ord('Z')
+    code_min_des_maj = ord('Z')
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
