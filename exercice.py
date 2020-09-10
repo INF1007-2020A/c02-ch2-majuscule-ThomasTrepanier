@@ -6,7 +6,7 @@ def majuscule(mot):
     LIMIT_MAJ = 90
     for lettre in mot:
         # TODO completer la fonction ici
-        letterCode = ord(lettre)
+        letterCode = ord(LIMIT_MAJ)
 
         if letterCode > 90:
             letterCode -= increment
