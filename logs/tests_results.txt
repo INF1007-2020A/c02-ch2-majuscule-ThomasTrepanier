@@ -1,6 +1,16 @@
-test_upper_case_names (__main__.TestExercice) ... ok
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/c02-ch2-majuscule-ThomasTrepanier/c02-ch2-majuscule-ThomasTrepanier/exercice.py", line 9, in majuscule
+    letterCode = ord(LIMIT_MAJ)
+TypeError: ord() expected string of length 1, but int found
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
 
-OK
+FAILED (errors=1)
