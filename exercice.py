@@ -9,7 +9,7 @@ def majuscule(mot):
         # TODO completer la fonction ici
         letterCode = ord(lettre)
 
-        if letterCode <= code_max_des_maj and letterCode <:
+        if letterCode <= code_max_des_maj and letterCode >= code_min_des_maj:
             letterCode -= dist_entre_min_et_maj
         else:
             letterCode += dist_entre_min_et_maj
