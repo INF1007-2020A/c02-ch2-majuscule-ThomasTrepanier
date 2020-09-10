@@ -5,13 +5,14 @@ def majuscule(mot):
     dist_entre_min_et_maj = ord('a') - ord('A')
     code_min_des_maj = ord('A')
     code_max_des_maj = ord('Z')
+    code_min_des_min = ord('a')
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
 
         if letterCode <= code_max_des_maj and letterCode >= code_min_des_maj:
             letterCode -= dist_entre_min_et_maj
-        else:
+        elif lettercode:
             letterCode += dist_entre_min_et_maj
 
         lettre = chr(letterCode)
