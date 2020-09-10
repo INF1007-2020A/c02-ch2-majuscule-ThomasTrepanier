@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    increment = 32
+    dist_entre_min_et_maj = 32
     LIMIT_MAJ = 90
     for lettre in mot:
         # TODO completer la fonction ici
