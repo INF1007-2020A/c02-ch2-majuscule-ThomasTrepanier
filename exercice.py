@@ -6,6 +6,7 @@ def majuscule(mot):
     code_min_des_maj = ord('A')
     code_max_des_maj = ord('Z')
     code_min_des_min = ord('a')
+    code_max_des_min = ord('z')
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
