@@ -15,7 +15,7 @@ def majuscule(mot):
             letterCode += dist_entre_min_et_maj
         elif letterCode <= code_max_des_min and letterCode >= code_min_des_min:
             letterCode -= dist_entre_min_et_maj
-
+#lol
         lettre = chr(letterCode)
         resultat += lettre
     return resultat
