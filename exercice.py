@@ -9,9 +9,9 @@ def majuscule(mot):
         letterCode = ord(LIMIT_MAJ)
 
         if letterCode > 90:
-            letterCode -= increment
+            letterCode -= dist_entre_min_et_maj
         else:
-            letterCode += increment
+            letterCode += dist_entre_min_et_maj
 
         lettre = chr(letterCode)
         resultat += lettre
