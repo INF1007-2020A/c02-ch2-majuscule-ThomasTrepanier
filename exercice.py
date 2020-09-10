@@ -4,7 +4,15 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        
+        letterCode = ord(lettre)
+
+        if letterCode > 90:
+            letterCode -= 32
+        else:
+            letterCode += 32
+
+        lettre = chr(letterCode)
+
         resultat += lettre
     return resultat
 
