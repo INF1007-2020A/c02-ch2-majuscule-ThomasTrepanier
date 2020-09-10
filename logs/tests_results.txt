@@ -1,6 +1,34 @@
-test_upper_case_names (__main__.TestExercice) ... ok
+test_upper_case_names (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 21, in test_upper_case_names
+    'Toutes les lettres doivent être en majuscule.'
+AssertionError: Lists differ: ['NOR[37 chars]ABOT', 'UNITé', 'DIVERTIR', 'ASSOCIATION', 'PLUIE', 'ALPHABET'] != ['NOR[37 chars]ABOT', 'UNITÉ', 'DIVERTIR', 'ASSOCIATION', 'PLUIE', 'ALPHABET']
+
+First differing element 5:
+'UNITé'
+'UNITÉ'
+
+  ['NORD',
+   'ALCOOL',
+   'NERVEUX',
+   'EXAMEN',
+   'SABOT',
+-  'UNITé',
+?       ^
+
++  'UNITÉ',
+?       ^
+
+   'DIVERTIR',
+   'ASSOCIATION',
+   'PLUIE',
+   'ALPHABET'] : Toutes les lettres doivent être en majuscule.
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.000s
+Ran 1 test in 0.001s
 
-OK
+FAILED (failures=1)

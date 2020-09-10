@@ -1,13 +1,11 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
 
-
-
 ## Résultats
 Score | Critères
 --- | ---
-1/1 | Formater des mots en majuscules
-1/1 | **Total**
+0/1 | Formater des mots en majuscules
+0/1 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Transformer une lettre minuscule en majuscule
