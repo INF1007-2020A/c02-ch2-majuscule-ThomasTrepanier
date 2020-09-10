@@ -3,6 +3,7 @@
 def majuscule(mot):
     resultat = ''
     increment = 32
+    LIMIT_MAJ = 90
     for lettre in mot:
         # TODO completer la fonction ici
         letterCode = ord(lettre)
