@@ -19,7 +19,7 @@ def majuscule(mot):
         lettre = chr(letterCode)
         resultat += lettre
     return resultat
-
+#test
 
 if __name__ == '__main__':
     mots = [
